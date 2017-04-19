@@ -33,7 +33,7 @@ module.exports = {
       user : 'admin',
       host : '210.211.124.4',
 	  ref  : 'origin/master',
-	  repo : 'git@github.com:ltduc/server-chat-deploy-test.git',
+	  repo : 'git@github.com:ltduc/server-chat-dev.git',
       path : 'server-chat-deploy-dev',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
